@@ -1,0 +1,61 @@
+body{
+  background-color: beige  !important;
+}
+.portrait_container {
+  margin-left: 60%;
+  margin-top: -17%;
+}
+.home_text{
+  margin-top: 7%;
+  margin-left: 15%;
+}
+.name{
+font-size: 500%;
+}
+.name_desc{
+  font-size: 250%;
+}
+.toolbar{
+  justify-content: end;
+  margin-right: 2%;
+  margin-top: 1%;
+  font-size: 125%;
+}
+.toolbar_item{
+  
+}
+.summary_box{
+  width: 40%;
+  margin-top: 3%;
+
+}
+.summary{
+  font-size: 175%;
+  line-height: 125%;
+}
+.home_icon_container{
+  margin-top: -2%;
+  margin-left: 23%;
+}
+.home_icon{
+  width: 4%;
+  height: 4%;
+}
+.linkedin_icon{
+  margin-left: 2%;
+  margin-right: 1.5%;
+}
+.find_out_more{
+  margin-left: 44%;
+  margin-top: 6%;
+}
+.down_arrow{
+  width: 4%;
+  height: 4%;
+  margin-left: 4.8%;
+
+}
+.find_out_text{
+  font-size: 140%;
+  
+}
