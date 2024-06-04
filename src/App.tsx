@@ -1,20 +1,26 @@
-import CenterPicture from "./components/CenterPicture";
-import NavBar from "./components/NavBar";
-import HomeText from "./components/HomeText";
-import HomeIcons from "./components/HomeIcons";
-import FindOutMore from "./components/FindOutMore";
-import '/src/App.css'
 
-function App() {
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import About from './pages/About';
+import Contact from './pages/Contact';
+
+ function App(){
     return (
-        <div className="App">
-            <NavBar /> 
-            <HomeText />
-            <CenterPicture />
-            <HomeIcons />
-            <FindOutMore />
+        <div>
+            <BrowserRouter>
+                <Routes>
+                    <Route index element = {<Home />}/>
+                    <Route path="/home"element = {<Home />}/>
+                    <Route path="/projects"element = {<Projects />}/>
+                    <Route path="/about"element = {<About />}/>
+                    <Route path="/contact"element = {<Contact />}/>
+
+                </Routes> 
+            </BrowserRouter>
         </div>
     );
-}
+  };
 
 export default App;

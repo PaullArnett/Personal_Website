@@ -10,10 +10,7 @@ function NavBar() {
                 <a className="nav-link toolbar_item" href="Projects">Projects</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link toolbar_item" href="Education">Education</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link toolbar_item" href="Resume">Resume</a>
+                <a className="nav-link toolbar_item" href="About">About</a>
             </li>
             <li className="nav-item">
                 <a className="nav-link toolbar_item" href="Contact">Contact</a>
