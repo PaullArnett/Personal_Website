@@ -37,8 +37,8 @@ function Skills() {
                     <h1 className='skill_name'>Database</h1>
                     <div className="horizontal_line"></div>
                     <div className='skill_row'>
-                        <img src="mysql.svg" className="skill_icon"  alt="..."></img>
-                        <img src="mongodb.svg" className="skill_icon"  alt="..."></img>
+                        <img src="mysql.svg" className="skill_icon_larger"  alt="..."></img>
+                        <img src="mongodb.svg" className="skill_icon_larger mongodb"  alt="..."></img>
                     </div> 
                 </div> 
             </div>                      

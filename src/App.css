@@ -122,6 +122,7 @@ font-size: 500%;
   width: 64%;
   margin-left: 18%;
   margin-top: 2%;
+  margin-bottom: 2%;
   padding: 1%;
   border-radius: 15px;
 }
@@ -194,11 +195,6 @@ font-size: 500%;
 .line_spacing{
   line-height: 2; 
 }
-.contact_form{
-  width: 40%;
-  margin-left: 25%;
-  margin-top: 5%;
-}
 .skill_container_row{
   display: flex;
   justify-content: center;
@@ -209,7 +205,7 @@ font-size: 500%;
   justify-content: center;
 }
 .skill_icons_container{
-  background-color: darkgray;
+  background-color: lightblue;
   width: 40%;
   margin-right: 3%;
   margin-left: 3%;
@@ -225,4 +221,22 @@ font-size: 500%;
   width: 15%;
   margin-right: 3%;
   margin-top: 3%;
+}
+.skill_icon_larger{
+  width: 24%;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+.mongodb{
+  width: 30%;
+}
+.contact_form{
+  width: 38%;
+  margin-left: 32%;
+  margin-top: 5%;
+  font-size: 160%;
+}
+.contact_form input[type="email"],
+.contact_form textarea {
+    font-size: 90%; 
 }
