@@ -1,11 +1,12 @@
 import '/src/App.css'
 import NavBar from '../components/NavBar';
+import ContactForm from '../components/ContactForm';
 
 function Contact() {
     return (
         <div className="Contact">
             <NavBar /> 
-            <p>You have successfully navigated to Contact page!</p>
+            <ContactForm />
         </div>
     );
 }
